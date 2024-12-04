@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images_1"
+    tools:context=".Admin_HomeActivity">
+
+    <Button
+        android:id="@+id/admin_users_show_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        android:padding="17dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="Show Users"
+        android:textColor="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/admin_users_Delete_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="17dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="Delete user"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/admin_users_show_all"
+        />
+
+     <Button
+         android:id="@+id/admin_users_update_all"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/admin_users_Delete_all"
+         android:layout_marginTop="15dp"
+         android:layout_marginLeft="15dp"
+         android:layout_marginRight="15dp"
+
+         android:padding="17dp"
+         android:textAllCaps="false"
+         android:textSize="18sp"
+         android:text="Update User"
+         android:textColor="@android:color/white"
+         />
+
+     <Button
+         android:id="@+id/admin_change_profile_all"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/admin_users_update_all"
+         android:layout_marginTop="15dp"
+         android:layout_marginLeft="15dp"
+         android:layout_marginRight="15dp"
+         android:padding="17dp"
+         android:textAllCaps="false"
+         android:textSize="18sp"
+         android:text="Change My Profile"
+         android:textColor="@android:color/white"
+         />
+
+     <Button
+         android:id="@+id/admin_users_show_details_all"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/admin_change_profile_all"
+         android:layout_marginTop="15dp"
+         android:layout_marginLeft="15dp"
+         android:layout_marginRight="15dp"
+         android:padding="17dp"
+         android:textAllCaps="false"
+         android:textSize="18sp"
+         android:text="Show user details"
+         android:textColor="@android:color/white"
+         />
+
+    <TextView
+        android:id="@+id/copy_right1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cop_right"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@android:color/darker_gray"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images_1"
+    tools:context=".Technical_Advertisment_PostActivity">
+    <EditText
+        android:id="@+id/client_post_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add you post title here"/>
+
+    <EditText
+        android:id="@+id/client_post_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add you post describtion here"
+        android:layout_below="@+id/client_post_title"/>
+
+    <Button
+        android:id="@+id/Add_post_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_below="@+id/client_post_description"/>
+
+</RelativeLayout>

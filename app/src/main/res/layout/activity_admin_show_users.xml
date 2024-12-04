@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images_1"
+    tools:context=".Admin_show_usersActivity">
+    <TableRow
+        android:id="@+id/header_Row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#80000000"
+        >
+
+        <TextView
+            android:id="@+id/view_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="E-mail   "
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            ></TextView>
+        <TextView
+            android:id="@+id/view_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Name   "
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            ></TextView>
+        <TextView
+            android:id="@+id/view_type"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Type"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            ></TextView>
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/firstRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#40000000"
+        android:textColor="@color/white"
+        >
+
+        <ListView
+            android:id="@+id/list_view_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            ></ListView>
+        <ListView
+            android:id="@+id/list_view_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            ></ListView>
+
+        <ListView
+            android:id="@+id/list_view_type"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"></ListView>
+    </TableRow>
+
+
+
+
+</TableLayout>

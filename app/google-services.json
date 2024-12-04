@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1060863480936",
+    "firebase_url": "https://dr-phone-5d014.firebaseio.com",
+    "project_id": "dr-phone-5d014",
+    "storage_bucket": "dr-phone-5d014.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060863480936:android:1305f7ae440d52dbe157dd",
+        "android_client_info": {
+          "package_name": "com.example.metr.doctor_phone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060863480936-g0mcti1qbgbs9infm11r7a7o92nrc8m0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQZVOJCGHuDX63A3eJF4MC5vTqjD-Fam4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060863480936-g0mcti1qbgbs9infm11r7a7o92nrc8m0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
